@@ -1,7 +1,9 @@
 import React from 'react';
 
-function App() {
-	return <h1>hello react</h1>;
-}
+import './global.css';
 
-export default App;
+import Routes from './routes';
+
+export default function App() {
+	return <Routes />;
+}
