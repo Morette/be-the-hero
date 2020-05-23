@@ -12,6 +12,4 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-app.listen(port);
-
-console.log(`server start at port ${port}`);
+module.exports = app;
